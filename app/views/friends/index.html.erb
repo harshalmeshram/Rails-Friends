@@ -1,0 +1,32 @@
+<p style="color: green"><%= notice %></p>
+
+
+<table class="table">
+<div id="friends">
+  <tr>
+    <th>Friend</th>
+  </tr>
+
+  <% @friends.each do |friend| %>
+    <%# if friend.user == current_user %>
+    <%#= friend.full_name %>
+    <%#= friend.email %>
+
+    <%= friend.name_with_email %>
+
+
+    <%= render friend %>
+    <p>
+     
+     
+     <%= link_to "Show this friend", friend %>
+     <%= link_to "Edit", edit_friend_path(friend), class:"btn btn-secondary" %> |
+     <%= link_to 'Destroy', friend, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+    </p>
+    <%# end %>
+  <% end %>
+</div>
+
+<%= link_to "New friend", new_friend_path, class:"btn btn-secondary" %>
+   

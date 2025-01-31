@@ -1,0 +1,18 @@
+current directory: /home/hp/railsfriends/friends/vendor/bundle/ruby/3.0.0/gems/digest-3.1.0/ext/digest/bubblebabble
+/usr/share/rvm/rubies/ruby-3.0.2/bin/ruby -I /usr/share/rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20220419-24122-wudr24.rb extconf.rb
+creating Makefile
+
+current directory: /home/hp/railsfriends/friends/vendor/bundle/ruby/3.0.0/gems/digest-3.1.0/ext/digest/bubblebabble
+make DESTDIR\= clean
+
+current directory: /home/hp/railsfriends/friends/vendor/bundle/ruby/3.0.0/gems/digest-3.1.0/ext/digest/bubblebabble
+make DESTDIR\=
+compiling bubblebabble.c
+linking shared-object digest/bubblebabble.so
+
+current directory: /home/hp/railsfriends/friends/vendor/bundle/ruby/3.0.0/gems/digest-3.1.0/ext/digest/bubblebabble
+make DESTDIR\= install
+make: /usr/bin/mkdir: Command not found
+make: *** [Makefile:202: .sitearchdir.-.digest.time] Error 127
+
+make install failed, exit code 2

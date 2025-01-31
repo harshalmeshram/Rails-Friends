@@ -1,0 +1,18 @@
+current directory: /home/hp/railsfriends/friends/vendor/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+/usr/share/rvm/rubies/ruby-3.0.2/bin/ruby -I /usr/share/rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0 -r ./siteconf20241102-22519-13drt5.rb extconf.rb
+checking for rb_io_wait()... yes
+checking for sys/ioctl.h... yes
+checking for FIONREAD in sys/ioctl.h,sys/ioctl.h... yes
+creating Makefile
+
+current directory: /home/hp/railsfriends/friends/vendor/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\= clean
+
+current directory: /home/hp/railsfriends/friends/vendor/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\=
+compiling wait.c
+linking shared-object io/wait.so
+
+current directory: /home/hp/railsfriends/friends/vendor/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\= install
+/usr/bin/install -m 0755 wait.so ./.gem.20241102-22519-d4p0ze/io
